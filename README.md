@@ -135,3 +135,5 @@ sequenceDiagram
 
 ## Licença
 ISC (ver `package.json`).
+
+## DESENVOLVIDO NO DESAFIO NODE.JS DA ROCKETSEAT
