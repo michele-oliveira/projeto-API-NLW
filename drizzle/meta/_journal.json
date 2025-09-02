@@ -29,6 +29,20 @@
       "when": 1756753485452,
       "tag": "0003_melodic_siren",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1756763437560,
+      "tag": "0004_vengeful_liz_osborn",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1756764117579,
+      "tag": "0005_hard_jubilee",
+      "breakpoints": true
     }
   ]
 }
