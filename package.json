@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node --env-file .env --watch server.ts",
+    "dev": "node --env-file .env --watch src/server.ts",
     "db:seed": "node --env-file .env src/database/seed.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
-    "test": "vitest run"
+    "test": "dotenv -e .env vitest run"
   },
   "keywords": [],
   "author": "",
@@ -28,7 +28,10 @@
   "devDependencies": {
     "@faker-js/faker": "^10.0.0",
     "@types/node": "^24.3.0",
+    "@types/supertest": "^6.0.3",
+    "dotenv-cli": "^10.0.0",
     "drizzle-kit": "^0.31.4",
+    "supertest": "^7.1.4",
     "typescript": "^5.9.2",
     "vitest": "^3.2.4"
   }
