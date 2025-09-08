@@ -1,8 +1,9 @@
 POST http://localhost:3333/courses
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0ODkwZTE3ZS03YTIwLTRkNTMtOGFjZS01ZjMwNDcwMjk0M2EiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NzM2MDc5MH0.nQXjPvioRrJ1DBqClEqLZBdSQtVnOuoSlW-eBsJT2JE
 
 {
-  "title": "Curso de React"
+  "title": "Curso de Node"
 }
 
 ###
@@ -13,7 +14,7 @@ GET http://localhost:3333/courses
 ###
 
 GET http://localhost:3333/courses/56a434ee-72a5-4485-b17c-493d56a006cb
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0ODkwZTE3ZS03YTIwLTRkNTMtOGFjZS01ZjMwNDcwMjk0M2EiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc1NzM1NDYwN30.4jNwTVmnfFY7fjdagMVjJ5pwEUvjEYg8PZ1R_V9HTIo
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0ODkwZTE3ZS03YTIwLTRkNTMtOGFjZS01ZjMwNDcwMjk0M2EiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NzM2MDc5MH0.nQXjPvioRrJ1DBqClEqLZBdSQtVnOuoSlW-eBsJT2JE
 
 ###
 
