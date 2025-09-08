@@ -8,6 +8,18 @@ Content-Type: application/json
 ###
 
 GET http://localhost:3333/courses
+
+
 ###
 
 GET http://localhost:3333/courses/e8b64d97-54a1-4048-9f1e-dd26a76aacc9
+
+###
+
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+  "email": "Pedro60@gmail.com",
+  "password": "123456"
+}
